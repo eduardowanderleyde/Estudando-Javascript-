@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Dados</title>
+</head>
+
+<body>
+
+
+
+  <button onClick=`dado1()`>Lançar dado 1></button></br>
+  <div id='numero1'>
+    <div>
+
+      <script type="text/javascript">
+        function dado1() {
+          let numerojogador1 = document.getElementsById('numerojogador1')
+          numerojogador1 = Math.floor(1 + 7 * Math.random());
+        }
+
+      </script>
+      <p><button onClick="dado2()">Lançar dado 2></button></p>
+      <script src="app.js"> </script>
+
+
+
+
+
+
+</body>
+
+</html>
